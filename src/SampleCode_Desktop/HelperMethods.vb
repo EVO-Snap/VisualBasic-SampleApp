@@ -974,7 +974,7 @@ Namespace SampleCode
             If Convert.ToInt16(strPAN.Substring(0, 2)) = 62 Then
                 Return TypeCardType.Discover
             End If
-           
+
             Return TypeCardType.NotSet
             'No match was found
         End Function
